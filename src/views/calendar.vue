@@ -40,7 +40,7 @@
           :activator="selectedElement"
           offset-y
       >
-        <v-card :event-id="selectedEvent._id" flat>
+        <v-card :event-id="selectedEvent.id" flat>
           <v-card-title>{{ selectedEvent.name }}</v-card-title>
           <v-card-subtitle>{{ selectedEvent.datetime }}</v-card-subtitle>
           <v-card-text v-if="selectedEvent.detail" style="white-space: pre-wrap">
